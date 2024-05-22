@@ -7,14 +7,15 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.hero-img {
+    width: 100%;
+}
 article {
     margin: 0 auto;
     max-width: 60rem;
 }
 
-.hero-img {
-    width: 100%;
-}
+
 
 .text {
     margin: 1rem;
@@ -32,3 +33,31 @@ h1 {
     margin: 0 0 1rem 0;
 
 }
+
+h2 {
+    font-size: 1.8em;
+    margin: 1.5rem 0 1rem 0;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1rem;
+    margin: 0 0 1.5rem 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+
+li::marker {
+    color: #e9272c;
+}
+
