@@ -24,6 +24,7 @@ article {
     background-color: white;
     padding: 1.5rem;
     border-radius: 1rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 
